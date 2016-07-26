@@ -10,6 +10,13 @@ public class TestPerson {
         Person person3 = new Person("Anya", null, 4, 28);
         Person person4 = new Person(null, person1.getAddress().duplicate(), 100, 80);
 
+        System.out.println(person1);
+        System.out.println(person2);
+        System.out.println(person3);
+        System.out.println(person4);
+
+        System.out.println();
+
         System.out.println("person1 equal to person2? " + person1.equals(person2));
         System.out.println("person3 equal to person1? " + person3.equals(person1));
         System.out.println("person3 address equal to person2 address? " + person3.getAddress().equals(person2.getAddress()));
